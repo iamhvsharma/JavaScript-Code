@@ -1,0 +1,7 @@
+Documentation Sites :
+1. Mdn
+2. tc39.es // Official Documentation of JS
+
+
+Timestamp 
+1st break - 1:14 Hours 
