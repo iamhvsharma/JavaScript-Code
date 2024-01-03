@@ -54,3 +54,45 @@ console.log(typeof(myFunction)); // Returns Function but in theory we say Functi
 // NOTE : ALL the Non Primitive Datatypes return Object in their Typeof check
 
 
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory -: Two Types 
+
+// 1. Stack (Primitive) 
+// 2. Heap (Non Primitive)
+
+// Example of Stack 
+
+let myIgName = "iamhvsharma";
+let newIgName = myIgName;
+newIgName = "thedevharsh";
+
+console.log(myIgName);
+console.log(newIgName);
+
+/*
+Here In stack memory the data is copied in another variable so on changing the data of another variable
+The original data remains unchanged 
+*/
+
+
+
+//  Heap Memory Example
+
+let userOne = {
+    email : "thedevharsh.gmail.com",
+    upi: "thedevharsh@ybl",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "harshvardhan@microsoft.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+/*
+Explanation : When we change the data in a heap memory in a variable which have the data from another variable then the data will be changed because it is not copied data the data is brought there by the reference. So the original data is changed
+*/
