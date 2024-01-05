@@ -3,7 +3,13 @@ Documentation Sites :
 2. tc39.es // Official Documentation of JS
 
 
+Memory Allocation in JavaScript
+
+
 Timestamp 
 1st break - 1:14 Hours 
 
 2nd Break - 1:56 Hours 
+
+3rd Break - 2:53 Hours 
+// Starting JS Solving on FreeCodeCamp.org
