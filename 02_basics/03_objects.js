@@ -25,8 +25,10 @@ const JsUser = {
 
 
 console.log(JsUser.Email); // Dot notation 
-console.log(JsUser["Email"]) // Swuare Notation 
+console.log(JsUser["Email"]) // Square Notation 
 console.log(JsUser["Full name"]) // Swuare Notation 
+
+console.log(JsUser[mySym])
 
 // To overwrite values of Objects
 
@@ -34,6 +36,26 @@ JsUser.Email = "thedevharshchanged@gmail.com";
 
 // Method which helps us to freeze the overwriting of Keys within a object
 
-Object.freeze(JsUser)
+// Object.freeze(JsUser); // Freezes a Object Due to which the key values cannot be changed  
 
 JsUser.Email = "thedevharshbadalgayi@gmail.com";
+
+console.log(JsUser);
+
+
+
+// Function in JS
+
+JsUser.greetings = function() {
+    // console.log("Helloww user, How are you doing?")
+    
+    // Console.log using template
+    console.log(`Hello ${this.name}, How are you doing?`);
+
+    // "this" is used when we want to reference same object to access it's keys
+}
+
+console.log(JsUser.greetings());
+
+
+
