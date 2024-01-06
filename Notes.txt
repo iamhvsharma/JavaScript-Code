@@ -14,4 +14,6 @@ Timestamp
 3rd Break - 2:53 Hours 
 
 4th Break - 3:29 Hours
+
+5th Break - 3:50 Hours
 // Starting JS Solving on FreeCodeCamp.org

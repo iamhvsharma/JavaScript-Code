@@ -1,5 +1,3 @@
-/*
-
 
 // Array : The Array Object enables us to store multiple items of either same datatype of Different Data Type under the single variable name. Which is not possible in many other languages, there is always a restriction to store same data type elements inside a array.
 
@@ -36,7 +34,7 @@ console.log(myArr2);
  console.log(typeof(myArr));
 console.log(typeof(newArr));
 
-*/
+
 
 
 
