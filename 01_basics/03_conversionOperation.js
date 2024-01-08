@@ -73,6 +73,37 @@ console.log(gameCounter);
 // Read Documentation of [Prefix and Postfix on MDN]
 // Link : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment  
 
+console.log("********************************************************************************************")
+
+// Example of Prefix and PostFix to understand the concept :
+
+let i = 0;
+
+// Prefix ++i;
+// Postfix i++
+
+// console.log(++i == i++);
+// Output : True
+
+// Prefix 
+// let a = ++i;
+// console.log('a:', a);
+// console.log('i:', i);
+
+// Output a:1     i:1
+
+// PostFix
+let b = i++;
+console.log('b:', b);
+console.log('i:', i);
+
+// Output b: 0    i: 1
+
+
+
+
+
+
 
 
 

@@ -1,7 +1,9 @@
 /*
 NOTES:
 Prefer not to use var because of issue in block scope and functional scope.
+Let is block scoped and var is used for Global declaration
 If variable is Declared and not assigned any value then it will print UNDEFINED.
+
 */
 
 

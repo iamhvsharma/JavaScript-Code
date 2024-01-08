@@ -102,3 +102,20 @@ console.log(dyHod);
 
 // json
 
+// {
+//     "name": "Harshvardhan",
+// }
+
+// API Can be found in Array
+
+/* 
+[
+    {},
+    {},
+]
+*/
+
+// A popular api : randomuser me 
+
+// Copy API and use Json Formatter to Format and Beautify 
+// To make it easy to study

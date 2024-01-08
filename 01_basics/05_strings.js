@@ -23,7 +23,7 @@ console.log(gameName[2]);
 
 console.log(gameName.length); // Gives Total length of a Object
 console.log(gameName.toUpperCase());
-console.log(gameName.toUpperCase());
+console.log(gameName.toLowerCase());
 console.log(gameName.lastIndexOf(gameName));
 console.log(gameName.indexOf('d'));
 

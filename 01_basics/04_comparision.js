@@ -31,8 +31,8 @@ console.log(undefined<0);
 // Avoid to use the above comparisions 
 
 // The Reason is that an equality check == and comparisions > < >= <= works differently
-// Comparisions convert null to a number, treating it as a Zero
-// That's why null>=0 is true and null>
+// Comparisions with equality convert null to a number, treating it as a Zero
+// That's why null>=0 is true and null>0 is false
 
 // NULL is converted to a number and treated as 0 when the equality and comparision both is checked Simultaneouslu <= >=
 
