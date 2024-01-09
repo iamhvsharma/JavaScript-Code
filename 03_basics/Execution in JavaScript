@@ -1,0 +1,80 @@
+// Notes about Execution in JavaScript 
+
+JavaScript Execution Context : How the Js file be executed
+
+
+1. {} -> Global Execution Context -> this -> Browser this value is Window object
+
+2. Function Execution Context
+
+3. Eval Execution Context
+
+# How the code Executes in JS 
+
+# JS File is executed in two phase 
+
+1. Memory Creation Phase
+
+2. Execution Phase 
+
+
+CODE 
+
+let value1 = 10;
+let value2 = 20;
+
+function addValues(num1, num2){
+    let total = num1 + num2
+    return total;
+}
+
+let result1 = addValues(value1, value2);
+let result2 = addValue(15,20);
+
+
+
+// Execution 
+
+1 -> Global Execution => allocated in "this"
+
+2-> Memory Phase => Memory allocation of all the variables 
+value1 ->undefined
+value2 ->undefined
+addValues -> defination
+result1 -> undefined 
+result2 -> undefined 
+
+3 -> Execution Phase
+value1 <- 10
+value2 <-
+addValue -> Creates another New Executional Context box in which both the phase is performed 
+// Memory Phase 
+value1 -> undefined
+value2 -> undefined
+total -> undefined
+
+Execution Phase 
+num1 -> 10 
+num2 -> 5
+total -> 15  // Returns into global execution context 
+
+//NOTE : After the performance the NEW EXECUTIONAL CONTEXT BOX for a Function is Deleted automatically. 
+
+result1 15
+result2 =  Execution Context Phase
+
+// Memory Phase 
+value1 -> undefined
+value2 -> undefined
+total -> undefined
+
+Execution Phase 
+value1 -> 10 
+value2 -> 2
+total -> 12  // Returns into global execution context 
+
+
+
+# Call Stack -> It is kind of Stack Call box in which the functions when called moves to the Call stack and then after the execution it comes out of the Call Stack box.
+
+You can View this concept in Browser Inspect-> Sourcees -> New Snippet 
