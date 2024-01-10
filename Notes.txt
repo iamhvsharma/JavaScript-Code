@@ -23,4 +23,6 @@ Timestamp
 
 8th Break - 6:46 Hours 
 
+9th Break - 7:30 Hours
+
 // Starting JS Solving on FreeCodeCamp.org
